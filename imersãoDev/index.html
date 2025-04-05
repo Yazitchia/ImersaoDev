@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JJBA Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./media/JoJo's_Bizarre_Adventure_logo.png" type="image/png">
+</head>
+
+<body>
+
+<div class="logo">
+  <img src="./media/JoJo's_Bizarre_Adventure_logo.png" alt="Logo">
+</div>
+
+<div class="title">
+  <h1>Questions... start!</h1>
+</div>
+
+  <button onclick="startGame()">Start Quiz</button>
+
+  <audio id="bg-music" src="./media/giogiotheme.mp3" loop></audio>
+  <button onclick="toggleMusic()">🎵 Mute / Unmute</button>
+
+  <div class="game-content">
+    <section class="questionarie">
+      <div class="content">
+        <span class="progress"></span>
+        <span class="question"></span>
+        <div class="answers"></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="end" style="display:none">
+      <span></span>
+    </div>
+
+  <footer>Jojo's Bizarre Adventure by Araki Hirohiko</footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
