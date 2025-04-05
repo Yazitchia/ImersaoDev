@@ -115,6 +115,9 @@ p {
   text-align: center;
   font-weight: 600;
   color: white;
+  background: #000000;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 /* Estilo para o botão Start Quiz e Mute/Unmute */
